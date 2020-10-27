@@ -40,10 +40,11 @@ h1
   left:25%;
 
 }
-.bg
+.slide
 {
   width: 100%;
-
+ display: none;
+ transition: display, 2s;
 }
 .textlink
 {
@@ -155,4 +156,26 @@ td
 .projects-body
 {
   background-color: purple;
+}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+  from {opacity: 0}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: 0}
+  to {opacity: 1}
+}
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
 }
