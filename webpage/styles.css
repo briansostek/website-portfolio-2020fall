@@ -1,10 +1,22 @@
 *
 {
   font-family:Arial;
+
 }
-body
-{
-  margin: 0 auto;
+body {
+    animation: fadeInAnimation 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    margin: 0 auto;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
 }
 .page
 {
@@ -31,11 +43,12 @@ h1
 .bg
 {
   width: 100%;
-  margin: -10 -10
+
 }
 .textlink
 {
   color:lightblue;
+  font-family: Consolas;
 }
 .textlink:hover
 {
@@ -43,7 +56,7 @@ h1
 }
 .textlink:visited
 {
-  color: black;
+  color: lightblue;
 }
 .textlink:visited:hover
 {
@@ -57,7 +70,7 @@ p
 .title
 {
   font-family: Consolas;
-  background-color: #2196f3;
+  background-color: #27b5e1;
   border-radius: 5px;
   margin: 0 auto;
   width: 90%;
@@ -66,11 +79,80 @@ p
 .meObject
 {
   text-align: left;
+  display: block;
   background-color: black;
-  color:red;
+  color:lime;
   font-family: Consolas;
+  margin-top: 10px;
+  padding: 20px;
+  opacity: 0.8;
+  border-radius: 20px;
+}
+.meObject>p
+{
+  font-family: Consolas;
+  color:white;
+  font-size:16px;
+  opacity: 1;
 }
 code
 {
-  margin: 10;
+  font-family: Consolas;
+  opacity: 1;
+}
+
+.sidebar
+{
+  background-color:#27b5e1;
+  border-radius: 5px;
+  margin: 0;
+  width:300px;
+  text-align: left;
+  position:absolute;
+  top: 0px;
+
+}
+.sidebar>ul
+{
+  list-style: none;
+}
+.nav-link
+{
+  text-decoration: none;
+  color:white;
+  font-size:40px;
+  font-family: Consolas;
+}
+.nav-link:hover
+{
+   transition: color 1s;
+   color:#ed7d31;
+}
+.gallery-body
+{
+  background-color: #eb4034;
+}
+table
+{
+  margin: auto;
+  display: block;
+
+}
+td
+{
+  background-color: black;
+  margin: auto;
+  border: 5px solid black;
+  border-radius: 10px;
+}
+.projects
+{
+  font-family: Consolas;
+  color:lime;
+  background-color: black;
+  border-radius: 10px;
+}
+.projects-body
+{
+  background-color: purple;
 }
