@@ -6,6 +6,7 @@ using my newfound CSS and HTML skills. I also want to include some JavaScript/in
 professional.
 
 Here are my assets for my site:
-* Background Image of my friends and I on a mountaintop.
+* Background Images that will be scrolled using javascript
+* Background videos that will be scrolled using js.
 * Logo I designed when making my last site.
 * Gallery images (9)
