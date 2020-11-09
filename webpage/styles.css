@@ -107,7 +107,6 @@ code
 {
   background-color:#27b5e1;
   border-radius: 5px;
-  margin: 0;
   width:300px;
   text-align: left;
   position:absolute;
@@ -209,4 +208,88 @@ td
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
+}
+
+@media (max-width:800px)
+{
+  .slide
+  {
+    visibility: hidden;
+    position: relative;
+    display:none;
+    height: 0
+  }
+  .sidebar
+  {
+    margin: auto;
+    position: relative;
+    display:grid;
+    width: 90%;
+    text-align:center;
+
+  }
+  .sidebar>ul>li>img
+  {
+    width:30%;
+  }
+  .sidebar>ul>li>a
+  {
+    width:30%;
+    font-size: 20px;
+  }
+  .intro
+  {
+    display:grid;
+    position:relative;
+    margin: auto;
+    width:100%;
+    text-align:center;
+    left:0%;
+  }
+  .page
+  {
+    display:grid;
+    position:relative;
+    margin: 0 auto;
+    width:100%;
+    text-align:center;
+    left:0%;
+  }
+  .title
+  {
+    display: grid;
+    font-size:20px;
+    position:relative;
+    width:90%;
+    margin: auto auto;
+    margin-bottom: 10px;
+  }
+  .meObject
+  {
+    position:relative;
+    width:90%;
+    margin: auto;
+  }
+
+  .projects
+  {
+    margin: auto;
+    width:90%;
+  }
+  .projects>img
+  {
+    display:grid;
+    width:90%;
+    margin:auto;
+  }
+
+  td
+  {
+    display:grid;
+  }
+  #indexBody
+  {
+    background-color:lightgrey;
+  }
+
 }
