@@ -1,5 +1,7 @@
 # Project 3: Website Portfolio
 
+**You can find my website at this link: https://briansostek.github.io**
+
 Your task in this unit is to **build a multi-page website using basic html and css files** — as opposed to a site manager like WordPress or Wix — **along with any media assets you wish to embed.** (Any JavaScript or animation you want to add for interactivity is welcome, but above and beyond expectations.) In assigning this, I have two main goals for you:
 
 1. to learn how to manage a composite project made up of multiple interlinking files, and
